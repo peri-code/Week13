@@ -12,6 +12,7 @@ function newElement() {
   document.getElementById("myInput").value = "";
 
   let span = document.createElement("SPAN");
+  
   let txt = document.createTextNode("\u00D7");
   span.className = "close";
   span.appendChild(txt);
